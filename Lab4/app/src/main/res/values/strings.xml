@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Laboratorio4</string>
+    <string name="todo">TODO</string>
+    <string name="actualizacion_disponible">Actualización Disponible</string>
+    <string name="descargar">Descargar</string>
+    <string name="sabado">Sábado</string>
+    <string name="_10_de_diciembre">10 de diciembre</string>
+    <string name="terminar_jornada">Terminar Jornada</string>
+    <string name="tre_fratelli">Tre Fratelli</string>
+    <string name="paseo_cayal_blvr_rafael_landivar_cdad_de_guatemala">Paseo Cayalá - Blvr. Rafael Landivar, Cdad. de Guatemala</string>
+    <string name="_7_00_am_11_00_pm">7:00 am - 11:00 pm</string>
+    <string name="boulevard_rafael_land_var_10_05_paseo_cayal_zona_16_guatemala_guatemala">Boulevard Rafael Landívar 10-05 Paseo Cayalá, Zona 16, Guatemala, - Guatemala</string>
+    <string name="boulevard_rafael_land_var_10_05_paseo_cayal_zona_16">Boulevard Rafael Landívar 10-05 Paseo Cayalá, Zona 16</string>
+    <string name="todo1">TODO</string>
+    <string name="iniciar">Iniciar</string>
+    <string name="detalles">Detalles</string>
+    <string name="todo2">TODO</string>
+    <string name="sebasti_n_jos_solorzano_p_rez">Sebastián José Solorzano Pérez</string>
+    <string name="iniciar_visita">Iniciar Visita</string>
+    <string name="informaci_n_adicional">Información Adicional</string>
+    <string name="horarios_de_atenci_n">Horarios de Atención</string>
+    <string name="tel_fono">Teléfono</string>
+    <string name="_2493_8037">2493-8037</string>
+    <string name="llamar">Llamar</string>
+</resources>

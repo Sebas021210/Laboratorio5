@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="410dp"
+        android:layout_height="50dp"
+        android:background="#C8E8F6"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"></LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="40dp"
+        android:layout_height="35dp"
+        android:contentDescription="@string/todo"
+        app:layout_constraintBottom_toBottomOf="@+id/linearLayout"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_baseline_update_24"
+        app:tint="#01579B" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/actualizacion_disponible"
+        android:textColor="#2B2929"
+        app:layout_constraintBottom_toBottomOf="@+id/linearLayout"
+        app:layout_constraintStart_toEndOf="@+id/imageView"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/buttonDescargar"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:background="#00E1F2F8"
+        android:text="@string/descargar"
+        android:textColor="#01579B"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="@+id/linearLayout"
+        app:layout_constraintEnd_toEndOf="@+id/linearLayout"
+        app:layout_constraintTop_toTopOf="@+id/linearLayout" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="400dp"
+        android:layout_height="670dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout"
+        app:layout_constraintVertical_bias="0.0">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="160dp"
+            android:layout_height="50dp"
+            android:text="@string/sabado"
+            android:textAlignment="center"
+            android:textColor="#0E0E0E"
+            android:textSize="40sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="160dp"
+            android:layout_height="75dp"
+            android:text="@string/_10_de_diciembre"
+            android:textAlignment="center"
+            android:textColor="#121111"
+            android:textSize="18sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+        <Button
+            android:id="@+id/button6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#00E1F2F8"
+            android:text="@string/terminar_jornada"
+            android:textColor="#8355D5"
+            android:textSize="14sp"
+            app:layout_constraintBottom_toTopOf="@+id/constraintLayout"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/textView3"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/constraintLayout"
+            android:layout_width="398dp"
+            android:layout_height="200dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView3">
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="160dp"
+                android:layout_height="40dp"
+                android:text="@string/tre_fratelli"
+                android:textAlignment="center"
+                android:textColor="#090909"
+                android:textSize="28sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="385dp"
+                android:layout_height="25dp"
+                android:text="@string/boulevard_rafael_land_var_10_05_paseo_cayal_zona_16"
+                android:textAlignment="center"
+                android:textColor="#0E0E0E"
+                android:textSize="14sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="140dp"
+                android:layout_height="wrap_content"
+                android:text="@string/_7_00_am_11_00_pm"
+                android:textAlignment="center"
+                android:textColor="#0E0E0E"
+                android:textSize="12sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView5" />
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/ic_baseline_trending_flat_24"
+                android:contentDescription="@string/todo2" />
+
+            <Button
+                android:id="@+id/buttonIniciar"
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#FF5722"
+                android:text="@string/iniciar"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/buttonDetalles"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView6"
+                tools:ignore="TextContrastCheck" />
+
+            <Button
+                android:id="@+id/buttonDetalles"
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:background="#00E1F2F8"
+                android:text="@string/detalles"
+                android:textColor="#FF5722"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/textView6"
+                app:layout_constraintTop_toBottomOf="@+id/textView6"
+                tools:ignore="TextContrastCheck" />
+
+            <Button
+                android:id="@+id/buttonUbicacion"
+                android:layout_width="70dp"
+                android:layout_height="20dp"
+                android:background="#00E1F2F8"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
